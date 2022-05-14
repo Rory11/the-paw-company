@@ -11,7 +11,7 @@ const About = () => {
     <div className="about">
       <div className="container">
         <div className="header">
-          <div data-aos="fade-down-right" className="who-we-are-container">
+          <div data-aos="fade-down" className="who-we-are-container">
             <h2>Who We Are</h2>
             <div className="who-we-are-content">
                 <p>Hello! We are Thunder Bay's newest dog walking
@@ -24,11 +24,11 @@ const About = () => {
                 </p>
             </div>
           </div>
-          <div data-aos="fade-down-left" className="founder-container">
+          <div data-aos="fade-down" className="founder-container">
             <h2>Our Founder</h2>
           </div>
         </div>
-        <div data-aos="fade-right" className="content-container">
+        <div data-aos="fade-down" className="content-container">
             <p>
             Meet Amity, the founder of The Paw Company. 
             She grew up on her parents hobby farm in Neebing, 
@@ -57,7 +57,7 @@ const About = () => {
             </p>
         </div>
         <div className="footer">
-            <div data-aos="fade-left" className="footer-container">
+            <div data-aos="fade-down" className="footer-container">
                 <p>
                     We know how hard it is to leave pets, whether its for work or vacation.
                 </p>

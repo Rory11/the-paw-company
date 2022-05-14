@@ -42,7 +42,7 @@ color: #545454;
 }
 .who-we-are-content p{
     font-size: 15px;
-    padding: 5px;
+    padding: .5rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
 }
@@ -54,6 +54,7 @@ color: #545454;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     
 }
 .founder-container h2{
