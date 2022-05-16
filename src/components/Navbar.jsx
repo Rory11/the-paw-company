@@ -3,6 +3,7 @@ import './Navbar.css';
 import LogoAnimated from '../assets/LogoAnimated.mp4';
 import {HiOutlineMenuAlt4} from 'react-icons/hi';
 import {FaRegTimesCircle} from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -17,10 +18,22 @@ const Navbar = () => {
               <source src={LogoAnimated} type="video/mp4" />
             </video>
            <ul className={click? 'nav-menu active' : 'nav-menu'}>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+              <Link onClick={handleClick} to='home' smooth={true} duration={800}>
+                <a href="/">Home</a>
+              </Link>
+            </li>
+            <li>
+              <Link onClick={handleClick}  to='about' smooth={true} duration={800}>
+                <a href="#">About</a>
+              </Link>
+            </li>
+            <li>
+              <Link onClick={handleClick}  to='services' smooth={true} duration={800}>
+                <a href="#">Services</a>
+              </Link>
+            </li>
+            <li><a href="/contact">Contact</a></li>
            </ul>
            <div  className='hamburger' onClick={handleClick}>
              {click ? (<FaRegTimesCircle className='icon' />) : <HiOutlineMenuAlt4 className='icon' />}

@@ -4,7 +4,7 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div name='home' className='home'>
         <video autoPlay loop muted playsinline="true"
       disablePictureInPicture="true">
             <source src={PawCompanyVideo} type="video/mp4" />

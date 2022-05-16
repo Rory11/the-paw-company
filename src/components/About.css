@@ -2,7 +2,7 @@
 
 .about{
 position: relative;
-width: 100%;
+width: 100vw;
 height: 100%;
 background-color: #FDFDFD;
 color: #545454;
@@ -20,6 +20,7 @@ color: #545454;
     width: 100%;
     height: 40%;
     margin-bottom: 2rem;
+    margin-top: 5rem;
 }
 .who-we-are-container{
     width: 50%;
@@ -28,6 +29,10 @@ color: #545454;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #545454;
+    color: #FDFDFD;
+    border-radius: 20px;
+    padding-bottom: 2rem;
 }
 .who-we-are-container h2{
     padding: 2rem;
@@ -61,6 +66,9 @@ color: #545454;
     padding: 2rem;
     font-size: 30px;
     font-weight: 200;
+    border-bottom-left-radius: 20px;
+    border-bottom: #545454 solid;
+    border-left: #545454 solid;
 }
 
 /*---Content Section*/
@@ -95,5 +103,48 @@ border-radius: 10px;
 .cursive p{
     font-family: 'La Belle Aurore', cursive;
     font-size: 45px;
+}
+
+@media  screen and (max-width:940px) {
+    .about .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .who-we-are-container{
+        width: 100vw;
+        margin-bottom: 2rem;
+        border-radius: 0;
+    }
+    .who-we-are-container h2{
+        font-size: 40px;
+    }
+    .who-we-are-container p{
+        padding: 1px;
+        margin: auto;
+    }
+    .founder-container{
+        width: 100vw;
+    }
+    .founder-container h2{
+        font-size: 40px;
+    }
+    .content-container{
+        width: 100%;
+        border-radius: 0;
+        padding: 1rem;
+        
+    }
+    .footer{
+        width: 100%;
+        font-size: 20px;
+    }
+    .cursive p{
+        font-size: 30px;
+        margin-top: 2rem;
+
+    }
+
 }
 

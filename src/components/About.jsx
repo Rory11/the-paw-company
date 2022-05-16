@@ -8,10 +8,10 @@ const About = () => {
         Aos.init({ duration: 1000 });
     }, [])
   return (
-    <div className="about">
+    <div name='about' className="about">
       <div className="container">
         <div className="header">
-          <div data-aos="fade-down" className="who-we-are-container">
+          <div data-aos='flip-left' className="who-we-are-container">
             <h2>Who We Are</h2>
             <div className="who-we-are-content">
                 <p>Hello! We are Thunder Bay's newest dog walking
@@ -24,11 +24,11 @@ const About = () => {
                 </p>
             </div>
           </div>
-          <div data-aos="fade-down" className="founder-container">
+          <div className="founder-container">
             <h2>Our Founder</h2>
           </div>
         </div>
-        <div data-aos="fade-down" className="content-container">
+        <div data-aos="zoom-in-down" className="content-container">
             <p>
             Meet Amity, the founder of The Paw Company. 
             She grew up on her parents hobby farm in Neebing, 
@@ -57,7 +57,7 @@ const About = () => {
             </p>
         </div>
         <div className="footer">
-            <div data-aos="fade-down" className="footer-container">
+            <div className="footer-container">
                 <p>
                     We know how hard it is to leave pets, whether its for work or vacation.
                 </p>

@@ -1,0 +1,53 @@
+.contact{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.contact form{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    margin-left: 6rem;
+    padding: 2rem;
+    border: #545454;
+    border-style: double;
+    border-radius: 10px;
+}
+.contact form h2{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 60px;
+    font-weight: 200;
+    margin-left: 5rem;
+}
+.contact form input{
+    width: 60%;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+}
+.contact form label{
+    margin-left: 5rem;
+}
+.contact form textarea{
+    width: 60%;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    font-family:'Open Sans', sans-serif;
+}
+.contact form button{
+    width: 8rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #6895CF;
+    font-size: 20px;
+    color: #FDFDFD;
+    margin-left: 5rem;
+}
+
