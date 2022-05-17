@@ -9,11 +9,15 @@ const Home = () => {
       disablePictureInPicture="true">
             <source src={PawCompanyVideo} type="video/mp4" />
         </video>
-        <div className='container'>
+        <div className='home-container'>
             <h1 className='box'>Welcome to The Paw Company</h1>
-            <h2 className='box'>We're Thunder Bay's most reliable pet sitting and dog walking services!</h2>
+            <h2 className='box'>Thunder Bay's most reliable pet sitting and dog walking services!</h2>
             <div className='button-container'>
-            <button className='box'>Get Started</button>
+            <button>
+             <a href="http://contact.thepawcompany.ca/">
+               Get Started
+             </a> 
+            </button>
             </div>
         </div>
     </div>

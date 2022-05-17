@@ -1,8 +1,9 @@
 .services{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     color: #545454;
+    background-color: #FDFDFD;
 }
 .services-container{
     width: 100%;
@@ -23,7 +24,7 @@
     font-size: 4rem;
     font-weight: 200;
     letter-spacing: .8rem;
-    border-bottom: #545454 solid;
+    border-bottom: #545454 solid thin;
     margin-top: 5rem;
     
 }
@@ -33,35 +34,74 @@
     height: 50%;
     width: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 2rem;
     margin: 1rem;
 }
+.upper-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+.lower-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
 .service-box{
-    height: 100%;
-    width: 20%;
+    height: 600px;
+    width: 600px;
     border-radius: 20px;
-    background-color: #545454;
+    background-color: #efeff1;
+    box-shadow: #DDDDDF 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
     margin-right: 2rem;
+    padding: 1rem;
+    color: #545454;
 }
+
 .service-box h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: 200;
-    color: #FDFDFD;
+    color: #545454;
+    margin-top: 1rem;
 }
 .service-box img{
-    height: 50%;
-    width: 70%;
+    height: 150px;
+    width: 150px;
     padding: 1rem;
     margin: 1rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
+}
+.service-box p{
+    margin: .2rem;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+.service-box button{
+    width: 200px;
+    height: 30px;
+    margin: 1rem;
+    padding: 4px 2px;
+    border-radius: 30px;
+    border: none;
+    background-color: #6895CF;
+    color: #FDFDFD;
+    z-index: 10;
+}
+button :hover{
+    cursor: pointer;
 }
 
 .services-footer-container{
@@ -91,12 +131,15 @@
     font-size: 40px;
     font-weight: 200;
 }
+.services-footer p{
+    padding: 1rem;
+}
 .services-button-container{
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 1rem;
 }
 .services-button-container button{
@@ -107,8 +150,10 @@
     border: none;
     border-radius: 40px;
     font-size: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
-.services-button-container a{
+ a{
     color: #FDFDFD;
 }
 .services-button-container :hover{
@@ -123,15 +168,35 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0;
+    }
+    .service-h2-container{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
     }
     .service-boxes-container{
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         justify-content: center;
         align-items: center;
         margin: auto;
         padding: 1ren;
+    }
+    .upper-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .lower-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
     }
     .service-box{
         height: 100%;

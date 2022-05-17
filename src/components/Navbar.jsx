@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-       <div className='container'>
+       <div className='nav-container'>
            <h1>THE PAW COMPANY</h1>
            <video  width="80" height="80" autoPlay="autoplay" muted loop>
               <source src={LogoAnimated} type="video/mp4" />
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <a href="#">Services</a>
               </Link>
             </li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="http://contact.thepawcompany.ca/">Contact</a></li>
            </ul>
            <div  className='hamburger' onClick={handleClick}>
              {click ? (<FaRegTimesCircle className='icon' />) : <HiOutlineMenuAlt4 className='icon' />}

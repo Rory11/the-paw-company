@@ -1,0 +1,131 @@
+.reviews{
+    height: 100%;
+    width: 100vw;
+}
+.reviews-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    color: #545454;
+}
+.reviews-h2-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.review-header h2{
+    width: 50%;
+    font-size: 4rem;
+    text-align: center;
+    margin: .5rem;
+    font-weight: 200;
+    letter-spacing: .8rem;
+    border-bottom: #545454 solid thin;
+}
+.review-header h3{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.review-one{
+    display: flex;
+    height: 50%;
+    width: 80%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.review-one p{
+    width: 40%;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 21px;
+    padding-bottom: 5rem;
+    text-align: center;
+    
+}
+.review-two {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.review-two p{
+    width: 38.7%;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 21px;
+    padding-bottom: 5rem;
+    text-align: center;
+    
+}
+.review-footer img{
+    width: 100vw;
+    
+    margin: 0;
+    padding-top: 2rem;
+
+}
+
+@media screen and (max-width:1000px) {
+    .reviews{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .reviews-h2-container h2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .review-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        background-color: #efeff1;
+        padding: 2rem;
+        border-radius: 30px;
+    }
+    .review-one p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+    }
+    .review-one img{
+        height: 70%;
+        width: 70%;
+    }
+    .review-two{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        background-color: #efeff1;
+        padding: 2rem;
+        border-radius: 30px;
+    }
+    .review-two p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+    }
+    .review-two img{
+        height: 70%;
+        width: 70%;
+    }
+}
