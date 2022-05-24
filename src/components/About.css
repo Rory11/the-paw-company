@@ -126,7 +126,7 @@ overflow-x: hidden;
         align-items: center;
         text-align: center;
         margin-top: 2rem;
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
         padding: 1rem;
     }
     .who-we-are-container{
@@ -148,12 +148,12 @@ overflow-x: hidden;
     .founder-container{
         height: 100%;
         width: 100vw;
-        margin-bottom: 0;
+        margin: 1rem;
         padding: 0;
     }
     .founder-container img{
-        margin: 0;
-        padding: 0;
+        padding: 1rem;
+        width: 100%;
     }
     .founder-container h2{
         font-size: 40px;
