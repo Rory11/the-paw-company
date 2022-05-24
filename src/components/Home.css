@@ -40,7 +40,8 @@
     font-size: 90px;
     letter-spacing: -3px;
     line-height: 90%;
-    font-weight: 700;  
+    font-weight: 700;
+    text-shadow: rgb(42, 41, 41) 6px 6px 8px;
 }
 @keyframes letterSlide{
     from{
@@ -60,6 +61,7 @@
     font-weight: 100;
     margin-bottom: 0;
     padding-bottom: 0;
+    text-shadow: rgb(42, 41, 41) 5px 5px 10px;
 }
 .home .button-container{
     margin-left: 3rem;
@@ -67,9 +69,17 @@
     width: 500px;
     text-align: center;   
     margin-bottom: 2rem;
+    padding: 1rem;
 }
 .home .button-container button{
     height: 100%;
+}
+.home button{
+    box-shadow: rgb(42, 41, 41) 5px 5px 6px;
+    transition: 500ms ease;
+}
+.home button:hover{
+    transform: scale(1.1);
 }
 a :hover{
     cursor: pointer;

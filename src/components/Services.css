@@ -99,9 +99,15 @@
     background-color: #6895CF;
     color: #FDFDFD;
     z-index: 10;
+    
 }
-button :hover{
+button{
+    transition: 500ms ease;
+    box-shadow: #545454 5px 5px 6px;
+}
+button:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .services-footer-container{
